@@ -1,14 +1,18 @@
 .letter {
     font-size: 72px;
-    font-family: CircularPro-Black, CircularPro; font-weight: 800;
+    font-family: 'CircularPro-Black', sans-serif; 
     font-weight: 700;
   }
+
+.letter:hover {
+    fill: #a8a8a8;
+}  
 
 #Orchestra_Background:hover {
     cursor: pointer;
     fill-opacity: 0; 
     stroke-width: 2; 
-    stroke: orange;
+    stroke: #ffaa18;
     -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
     filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
 }
@@ -17,7 +21,7 @@
     cursor: pointer;
     fill-opacity: 0; 
     stroke-width: 2; 
-    stroke: orange;
+    stroke: #ffaa18;
     -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
     filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
 }
@@ -26,7 +30,7 @@
     cursor: pointer;
     fill-opacity: 0; 
     stroke-width: 2; 
-    stroke: orange;
+    stroke: #ffaa18;
     -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
     filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
 }
@@ -35,7 +39,7 @@
     cursor: pointer;
     fill-opacity: 0; 
     stroke-width: 2; 
-    stroke: orange;
+    stroke: #ffaa18;
     -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
     filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
 }
